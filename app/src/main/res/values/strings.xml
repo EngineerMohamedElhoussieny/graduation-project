@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">project3</string>
+    <string name="Make">please , Make your chooise</string>
+    <string name="m">please , dvdv</string>
+    <string name="vv">please , Make your chooise</string>
+    <string name="v">please , Make your chooise</string>
+    <string name="c">please , Make your chooise</string>
+    <string name="auto">auto</string>
+
+    <string name="connect">connect</string>
+    <string name="amd">AMD</string>
+    <string name="def">Detect mines about 30 cm ,Track for
+        robot and maps for mines, Makes the robor easy to control ,
+        connection betwen mobile and robot
+    </string>
+    <string name="aasada">proramming team</string>
+    <string name="member1">Dina abd Elkhaleq</string>
+    <string name="member2">Khaled Amr</string>
+    <string name="member3">Shimaa Hassan</string>
+    <string name="member4">Bassam  Hassan</string>
+    <string name="member5">Moahmed Elhoussiney</string>
+
+</resources>

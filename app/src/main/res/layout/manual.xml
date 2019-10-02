@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/maual"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:text=" "
+        android:onClick="onConnect"
+        android:id="@+id/connect"
+        android:background="@drawable/start"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:background="@drawable/arrow"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/up_forward"
+        android:layout_above="@+id/connect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp" />
+
+    <Button
+        android:background="@drawable/arrow"
+        android:rotation="135"
+         android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/down_right"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignTop="@+id/down_left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:text=" "
+        android:background="@drawable/arrow"
+        android:rotation="-135"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/down_left"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/connect"
+        android:layout_toRightOf="@+id/down_backward"
+        android:layout_toEndOf="@+id/down_backward"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <Button
+        android:background="@drawable/arrow"
+        android:rotation="45"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/up_right"
+        android:layout_alignTop="@+id/up_forward"
+        android:layout_alignLeft="@+id/down_right"
+        android:layout_alignStart="@+id/down_right" />
+
+    <Button
+        android:text=" "
+        android:background="@drawable/arrow"
+        android:rotation="-45"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/up_left"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignTop="@+id/up_forward"
+        android:layout_alignRight="@+id/down_left"
+        android:layout_alignEnd="@+id/down_left" />
+
+    <Button
+        android:text=" "
+        android:background="@drawable/arrow"
+        android:rotation="180"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/down_backward"
+        android:layout_below="@+id/down_left"
+        android:layout_alignLeft="@+id/up_forward"
+        android:layout_alignStart="@+id/up_forward" />
+
+
+</RelativeLayout>
